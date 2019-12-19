@@ -1,0 +1,19 @@
+
+.highPrice{
+    display: none;
+}
+.lowPrice{
+    display: block;
+}
+.highPriceP{
+    display: none;
+}
+.lowPriceP{
+    display: block;
+}
+.highPriceM{
+    display: none;
+}
+.lowPriceM{
+    display: block;
+}

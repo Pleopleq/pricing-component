@@ -1,0 +1,149 @@
+#basic{
+    background-color: white;
+    color:hsl(232, 13%, 33%);
+    border-radius: 4%;
+    text-align: center;
+    padding: 10%;
+    font-weight: 700;
+}
+
+#basic h1{
+    margin: 8%;
+    font-size: 62px;
+}
+
+#basic ul{
+    padding: 0%;
+}
+
+ #basic li{
+    padding: 12px 2px 12px 2px;
+    list-style-type: none;
+    border-top: 1px solid hsl(234, 14%, 74%);
+}
+
+ #basic li:nth-child(3){
+    padding: 12px 2px 12px 2px;
+    margin-bottom: 26px;
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+}
+
+#basic button{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    background-color: hsl(237, 63%, 64%);
+    font-family: inherit;
+    color: white;
+    font-size:12px;
+    padding: 8px 30% 8px 30%;
+    text-decoration: none;
+    border: 1px solid  hsl(237, 63%, 64%);
+    border-radius: 4px;
+}
+
+
+#professional{
+    color: hsl(240, 78%, 98%);
+    background: linear-gradient( hsl(236, 72%, 79%) , hsl(237, 63%, 64%)100%);
+    border-radius: 4%;
+    text-align: center;
+    padding: 10%;
+    font-weight: 700;
+}
+
+#professional h1{
+    margin: 8%;
+    font-size: 62px;
+}
+
+#professional ul{
+    padding: 0%;
+}
+
+#professional li{
+    padding: 12px 2px 12px 2px;
+    list-style-type: none;
+    border-top: 1px solid hsl(234, 14%, 74%);
+}
+
+#professional li:nth-child(3){
+    padding: 12px 2px 12px 2px;
+    margin-bottom: 26px;
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+}
+
+#professional button{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    background-color: white;
+    font-family: inherit;
+    color: hsl(237, 63%, 64%);
+    font-size:12px;
+    padding: 8px 30% 8px 30%;
+    text-decoration: none;
+    border: 1px solid  white;
+    border-radius: 4px;
+}
+
+
+#master{
+    background-color: white;
+    color:hsl(232, 13%, 33%);
+    border-radius: 4%;
+    text-align: center;
+    padding: 10%;
+    font-weight: 700;
+}
+
+#master h1{
+    margin: 8%;
+    font-size: 62px;
+}
+
+#master ul{
+    padding: 0%;
+}
+
+#master li{
+    padding: 12px 2px 12px 2px;
+    list-style-type: none;
+    border-top: 1px solid hsl(234, 14%, 74%);
+}
+
+#master li:nth-child(3){
+    padding: 12px 2px 12px 2px;
+    margin-bottom: 26px;
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+}
+
+#master button{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    background-color: hsl(237, 63%, 64%);
+    font-family: inherit;
+    color: white;
+    font-size:12px;
+    padding: 8px 30% 8px 30%;
+    text-decoration: none;
+    border: 1px solid  hsl(237, 63%, 64%);
+    border-radius: 4px;
+}
+@media screen and (min-width: 1024px) {
+#basic{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#master{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#basic button:hover, #master button:hover{
+    color: hsl(237, 63%, 64%);
+    background-color: white;
+}
+
+#professional button:hover{
+    background-color: hsl(237, 63%, 64%);
+    color:white;
+}
+}
